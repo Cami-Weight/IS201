@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(103, 164, 127);
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:antiquewhite;
+    text-align: center;
+    border-style: double;
+    border-width: 8px;
+    border-color: antiquewhite;
+}
+.tableaustyle{
+    display: block;
+    margin: auto;
+}
+li{
+    text-decoration: dashed;
+}
+.img{
+    display:block;
+    margin: auto;
+    width: 250px;
+    height: 150px;
+    float:left;
+}
+.header{
+    position:absolute;
+    top:0px;
+    display: block;
+    margin: auto;
+}
+.footer{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: fixed;
+    bottom: 0px;
+    display: block;
+    margin: auto;
+    color: antiquewhite;
+}
+.mainstuff{
+    position:absolute;
+    color:antiquewhite;
+}
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a:link{
+    color:aliceblue;
+    text-decoration: none;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: antiquewhite;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+a:visited{
+    color:antiquewhite;
+    border-width: 2px;
+    border-color: antiquewhite;
+}
+a:hover{
+    color:black;
+    border-color:black;
+    font-size: 200%;
+    border-width: 8px;
+}
